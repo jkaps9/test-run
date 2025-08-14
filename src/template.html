@@ -134,12 +134,30 @@
           <h2>Our Work</h2>
           <div class="gallery">
             <div class="image">
-              <img
+<!--		    
+srcset="
+jimmy-nilsson-masth-unsplash_hcdiu3_c_scale,w_400.jpg 400w,
+jimmy-nilsson-masth-unsplash_hcdiu3_c_scale,w_1200.jpg 1200w,
+jimmy-nilsson-masth-unsplash_hcdiu3_c_scale,w_1400.jpg 1400w"
+src="jimmy-nilsson-masth-unsplash_hcdiu3_c_scale,w_1400.jpg"--> 
+
+<img
+sizes="(max-width: 1400px) 100vw, 1400px"
+srcset="
+assets/images/jimmy-nilsson-masth-unsplash_hcdiu3_c_scale_w_400.jpg 400w, 
+
+assets/images/jimmy-nilsson-masth-unsplash_hcdiu3_c_scale_w_1200.jpg 1200w,
+assets/images/jimmy-nilsson-masth-unsplash_hcdiu3_c_scale_w_1400.jpg 1400w"
+src="assets/images/jimmy-nilsson-masth-unsplash_hcdiu3_c_scale_w_1400.jpg"
+alt="electrician"
+loading="lazy"                                           decoding="async" />
+
+              <!--<img
                 src="assets/images/jimmy-nilsson-masth-unsplash.jpg"
                 alt="electrician"
                 loading="lazy"
                 decoding="async"
-              />
+		/>-->
               <span class="attribution">
                 Photo by
                 <a
